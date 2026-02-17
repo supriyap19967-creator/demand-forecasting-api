@@ -1,0 +1,8 @@
+{
+    "input_features": [
+        "center_id",
+        "week",
+        "lag_1"
+    ],
+    "target": "total_demand"
+}

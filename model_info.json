@@ -1,0 +1,8 @@
+{
+    "model_type": "baseline_last_week",
+    "description": "Predicts demand using last week's demand (lag_1)",
+    "features_required": [
+        "lag_1"
+    ],
+    "reason_selected": "Outperformed RandomForest and Boosting on validation"
+}

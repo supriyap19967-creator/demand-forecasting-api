@@ -1,0 +1,6 @@
+{
+    "baseline_mae": 971.3344155844156,
+    "baseline_rmse": 1324.5175377442943,
+    "random_forest_mae": 994.2727840909091,
+    "gradient_boosting_mae": 1240.8701152191088
+}
