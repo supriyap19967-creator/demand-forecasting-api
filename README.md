@@ -103,6 +103,23 @@ Response
   "predicted_demand": 25000.0
 }
 
+## Production Enhancements
+
+- Input validation and explicit failure handling (negative, zero, unrealistic values)
+- Lightweight data drift awareness using training distribution statistics
+- Inference latency logging
+- Model metadata endpoint (/model-info)
+- Cloud-native deployment on Google Cloud Run
+- Containerized with Docker
+
+## Failure Handling
+
+The API explicitly handles:
+- Negative inputs
+- Zero values
+- Unrealistic large values
+- Drift detection warnings
+
 ## Rollback Strategy
 
 If a new model version underperforms in production:
