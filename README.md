@@ -93,16 +93,6 @@ The forecasting logic is exposed via a REST API.
 
 POST /predict
 
-### Request
-```json
-{
-  "lag_1": 25000
-}
-Response
-{
-  "predicted_demand": 25000.0
-}
-
 ## Production Enhancements
 
 - Input validation and explicit failure handling (negative, zero, unrealistic values)
@@ -130,4 +120,15 @@ If a new model version underperforms in production:
 4. Confirm health via `/health` and sample `/predict` requests.
 
 This ensures safe rollback without service interruption.
+
+### Request
+```json
+{
+  "lag_1": 25000
+}
+Response
+{
+  "predicted_demand": 25000.0
+}
+
 
