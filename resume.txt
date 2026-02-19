@@ -1,0 +1,48 @@
+SUPRIYA PATIL
+Contact No. 7715823977
+Entry-Level Data Engineer | Machine Learning Engineer
+India | Open to Onsite, Hybrid & Remote
+GitHub: https://github.com/supriyap19967-creator
+PROFESSIONAL SUMMARY
+Entry-level Data Engineer and Machine Learning Engineer with hands-on experience
+building end-to-end data pipelines and production-ready machine learning systems on
+Google Cloud Platform. Strong foundation in SQL, Python, ETL/ELT workflows, and
+machine learning fundamentals, with exposure to basic MLOps practices such as
+containerization, REST APIs, and cloud deployment.
+TECHNICAL SKILLS
+Data Engineering: SQL, ETL / ELT, Data Pipelines, Feature Views, Data Modeling
+Programming: Python, SQL
+Machine Learning: Regression, Time Series Forecasting, Feature Engineering, Model Evaluation
+MLOps (Entry Level): Model Serving & Deployment (FastAPI, Docker, Cloud Run)
+Cloud: Google Cloud Platform (Cloud Run)
+Libraries & Tools: Pandas, NumPy, scikit-learn, FastAPI
+Dev Tools: Git, GitHub 
+PROJECTS
+Taxi Revenue Prediction System | Data Engineering + Machine Learning
+
+Python, SQL (SQLite), Pandas, scikit-learn, FastAPI, Docker, Google Cloud Run
+• Designed end-to-end DE → ML pipeline with SQL analytics and ML-ready feature views.
+• Performed feature engineering and trained regression models; selected best model using MAE.
+• Built production-grade REST API with FastAPI including validation and error handling.
+• Implemented logging, model versioning, and health endpoints.
+• Containerized and deployed on Google Cloud Run for scalable inference.
+GitHub: https://github.com/supriyap19967-creator/taxi-revenue-prediction
+
+API: https://taxi-ml-api-202553701738.us-central1.run.app/docs
+
+Demand Forecasting API | Time Series Machine Learning + Cloud Deployment
+
+Python, Pandas, NumPy, scikit-learn, FastAPI, Docker, Google Cloud Run
+• Built time-series demand forecasting system with proper temporal validation.
+• Engineered lag features and rolling averages to capture demand trends.
+• Implemented time-aware train–validation split to prevent data leakage.
+• Deployed forecasting logic as production-ready REST API.
+• Containerized and deployed service on Google Cloud Run.
+GitHub: https://github.com/supriyap19967-creator/demand-forecasting-api
+
+Live API: https://demand-forecast-api-912628415543.asia-south1.run.app/docsCERTIFICATIONS
+Google Generative AI Certification – Coursera
+TensorFlow Developer Certificate – Coursera
+Machine Learning Specialization – Coursera
+EDUCATION
+Bachelor of Science in Information Technology (BSc IT
