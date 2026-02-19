@@ -102,3 +102,15 @@ Response
 {
   "predicted_demand": 25000.0
 }
+
+## Rollback Strategy
+
+If a new model version underperforms in production:
+
+1. Revert to previous `model_info.json` version.
+2. Redeploy the last stable container image from Artifact Registry.
+3. Validate using the `/model-info` endpoint.
+4. Confirm health via `/health` and sample `/predict` requests.
+
+This ensures safe rollback without service interruption.
+
