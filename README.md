@@ -11,6 +11,9 @@ The focus of this project is on:
 
 ---
 
+#System Architecture
+Data → Feature Engineering → Model → FastAPI → Docker → Cloud Run → Client Request
+
 ## Problem Statement
 Forecast **weekly demand** using historical demand patterns.
 
@@ -120,6 +123,12 @@ If a new model version underperforms in production:
 4. Confirm health via `/health` and sample `/predict` requests.
 
 This ensures safe rollback without service interruption.
+
+#Future Improvements
+-Automated retraining pipeline
+-Statistical drift detection using distribution comparison
+-CI/CD integration for model deployment
+-Monitoring dashboard for real-time performance tracking
 
 ### Request
 ```json
