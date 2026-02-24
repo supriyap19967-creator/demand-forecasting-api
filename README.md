@@ -126,11 +126,12 @@ If a new model version underperforms in production:
 
 This ensures safe rollback without service interruption.
 
-#Future Improvements
--Automated retraining pipeline
--Statistical drift detection using distribution comparison
--CI/CD integration for model deployment
--Monitoring dashboard for real-time performance tracking
+---
+# Future Improvements
+- Automated retraining pipeline
+- Statistical drift detection using distribution comparison
+- CI/CD integration for model deployment
+- Monitoring dashboard for real-time performance tracking
 
 ### Request
 ```json
