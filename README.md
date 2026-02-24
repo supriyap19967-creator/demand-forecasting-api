@@ -11,9 +11,10 @@ The focus of this project is on:
 
 ---
 
-#System Architecture
+# System Architecture
 Data → Feature Engineering → Model → FastAPI → Docker → Cloud Run → Client Request
 
+---
 ## Problem Statement
 Forecast **weekly demand** using historical demand patterns.
 
@@ -96,6 +97,7 @@ The forecasting logic is exposed via a REST API.
 
 POST /predict
 
+---
 ## Production Enhancements
 
 - Input validation and explicit failure handling (negative, zero, unrealistic values)
